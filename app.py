@@ -44,7 +44,7 @@ st.write(to_data_netflix)
 #     st.write("THIS IS OUR PREDICTED HIGH PRICE FOR THE NEXT PRICE")
 #     st.write(predict_value)
 #     st.write("Mean_Absolute_Percentage_Error=1.166% ERROR")
-with open(r"C:\Users\vksuj\IdeaProjects\NETFLIX_TOMORROW_SHARE_PRICE_PREDICTION\linear_re.pkl",'rb') as file:
+with open(r"linear_re.pkl",'rb') as file:
 
     linear_regression=pickle.load(file)
 
